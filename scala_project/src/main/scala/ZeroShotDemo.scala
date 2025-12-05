@@ -20,7 +20,7 @@ object ZeroShotDemo {
       "The writer expresses optimism about artificial intelligence.",
       "The writer expresses pessimism about artificial intelligence."
     )
-
+    // converts labels into a JSON payload (eventually we will send payload to app to perform llm inference)
     val labelsJson = labels.map(l => "\"" + escapeJson(l) + "\"").mkString("[", ",", "]")
     // this is JSON object we use to make API call (app.py)
     val payload = s"""{"text":"${escapeJson(article)}","candidate_labels":$labelsJson}"""
@@ -33,6 +33,7 @@ object ZeroShotDemo {
     conn.setRequestProperty("Content-Type", "application/json; charset=utf-8")
     conn.setDoOutput(true)
 
+    // sends JSON payload to our app running on URL
     val writer = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream, StandardCharsets.UTF_8))
     writer.write(payload)
     writer.flush()
@@ -42,12 +43,16 @@ object ZeroShotDemo {
     val code = conn.getResponseCode
     val responseStream = if (code >= 200 && code < 300) conn.getInputStream else conn.getErrorStream
     val response = Source.fromInputStream(responseStream, "utf-8").mkString
+
+    // I am probably going to need to change all of this, 
+    // but printing to command line for now. 
     println(s"HTTP $code")
-    println(response)
+    println(s"Response: ${response.take(200)}")
     // parse response using ujson
     val json = read(response)
 
-    // get scores (Seq[Double])
+    // get scores (Seq[Double]) (LLM will give us a 
+    // score [.2, .8] for likelihood text is positive/negative about ai)
     val scores = json("scores").arr.map(_.num)
 
     // rename response labels to avoid shadowing the earlier `labels`
@@ -61,6 +66,8 @@ object ZeroShotDemo {
     println(s"Top prediction: $topLabel (score = $topScore)")
   }
 
+  // this is just a helper function to help build JSON payload (what we send to LLM app)
+  // not really important, could have used a JSON library in scala
   private def escapeJson(s: String): String = {
     s.flatMap {
       case '"'  => "\\\""

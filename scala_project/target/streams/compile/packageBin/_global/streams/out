@@ -1,1 +1,13 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/belincoln/school/big_data/final_proj/scala_project/target/scala-3.3.7/untitled_3-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/untitled_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZeroShotDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/classes/ZeroShotDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	onnx-model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/classes/onnx-model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZeroShotDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/classes/ZeroShotDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZeroShotDemo.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/classes/ZeroShotDemo.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	newsArticle.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/belincoln/school/big_data/newsClassification/scala_project/target/scala-3.3.7/classes/newsArticle.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
