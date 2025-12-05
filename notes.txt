@@ -22,8 +22,11 @@ to run the project:
 
 My port is: 3003
 
-To run the webapp, run on this cluster:
-
+To run the webapp, you'll need kafka password: A3v4rd4@ujjw
+ 1. make sure you are in "app_with_weather_form" and run these commands
+    npm install
+    node app.js 3003 http://ec2-34-230-47-10.compute-1.amazonaws.com:8070
+ 2. access website with this URL: http://localhost:3003/
 
 To connect to the current hadoop cluster EMR: 
 ssh hadoop@ec2-34-230-47-10.compute-1.amazonaws.com
