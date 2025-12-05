@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "/home/belincoln/.sdkman/candidates/scala/3.7.3/libexec/scala-cli",
+    "--cli-default-scala-version",
+    "3.7.3",
+    "--repository",
+    "file:///home/belincoln/.sdkman/candidates/scala/current/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "/home/belincoln/school/big_data/final_proj/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/belincoln/school/big_data/final_proj/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/belincoln/school/big_data/final_proj/.scala-build/ide-envs.json",
+    "/home/belincoln/school/big_data/final_proj/call_classifier.scala"
+  ],
+  "version": "1.9.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

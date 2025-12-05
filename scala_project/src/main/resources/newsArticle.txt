@@ -1,0 +1,65 @@
+Sierra, a 21-month-old, San Francisco-based startup that builds customer service AI agents for enterprises,
+announced
+on Friday that it reached $100 million in annual revenue run rate (ARR). The company’s rapid growth suggests that businesses across industries are embracing AI agents.
+The startup’s growth rate surprised even its seasoned co-founders, former Salesforce co-CEO Bret Taylor and longtime Google alum Clay Bavor, who wrote on their blog: “That’s a heck of a lot quicker than we expected.”
+Sierra’s customers include tech companies like Deliveroo, Discord, Ramp, Rivian, SoFi, and Tubi, as well as well-established businesses outside of the tech sector, such as ADT, Bissell, Vans, Cigna, and SiriusXM.
+Taylor and Bavor said they expected tech companies would feel comfortable experimenting with AI customer service agents, but they were astounded that older businesses also became Sierra’s customers.
+The company says it can build AI agents that can handle tasks like authenticating patients for healthcare providers, processing returns, ordering replacement credit cards, and helping customers apply for mortgages — essentially automating customer service work that previously required human agents.
+Sierra faces competition from startups like Decagon and Intercom, but the company claims to be the leader in the AI customer service category.
+Sierra was last valued at
+$10 billion
+when it raised a $350 million round led by Greenoaks Capital in September. Other investors in the company include Sequoia, Benchmark, ICONIQ, and Thrive Capital.
+Techcrunch event
+Join the Disrupt 2026 Waitlist
+Add yourself to the Disrupt 2026 waitlist to be first in line when Early Bird tickets drop. Past Disrupts have brought Google Cloud, Netflix, Microsoft, Box, Phia, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, and Vinod Khosla to the stages — part of 250+ industry leaders driving 200+ sessions built to fuel your growth and sharpen your edge. Plus, meet the hundreds of startups innovating across every sector.
+Join the Disrupt 2026 Waitlist
+Add yourself to the Disrupt 2026 waitlist to be first in line when Early Bird tickets drop. Past Disrupts have brought Google Cloud, Netflix, Microsoft, Box, Phia, a16z, ElevenLabs, Wayve, Hugging Face, Elad Gil, and Vinod Khosla to the stages — part of 250+ industry leaders driving 200+ sessions built to fuel your growth and sharpen your edge. Plus, meet the hundreds of startups innovating across every sector.
+San Francisco
+|
+October 13-15, 2026
+W
+AITLIST
+NOW
+Based on its $100 million ARR, Sierra is currently valued at a 100x revenue multiple, a hefty valuation despite its exceptionally fast growth.
+The startup employs an outcomes-based pricing model, charging customers for completed work rather than charging flat subscription fees.
+Taylor and Bavor met at Google in 2005, where Taylor hired Bavor as an associate product manager.
+A Stanford computer science graduate, Taylor co-created Google Maps before founding FriendFeed, which Facebook acquired. At Facebook, he served as CTO and helped create the iconic “Like” button. He later founded Quip, a Google Docs competitor that Salesforce acquired for $750 million in 2016.
+Taylor went on to serve as Salesforce co-CEO alongside Marc Benioff for over a year. After Taylor left Salesforce in 2023, Bavor — who had spent 18 years at Google leading products like Gmail and Google Drive — invited him to lunch, where they decided to launch Sierra.
+Topics
+AI
+,
+Bret Taylor
+,
+Customer Service
+,
+Enterprise
+,
+Sierra Ai
+,
+Startups
+Marina Temkin
+Reporter, Venture
+Marina Temkin is a venture capital and startups reporter at TechCrunch. Prior to joining TechCrunch, she wrote about VC for PitchBook and Venture Capital Journal. Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation.
+You can contact or verify outreach from Marina by emailing
+marina.temkin@techcrunch.com
+or via encrypted message at +1 347-683-3909 on Signal.
+View Bio
+December 3, 2025
+Palo Alto, CA
+StrictlyVC concludes its 2025 series with an exclusive event featuring insights from leading VCs and builders such as Pat Gelsinger, Mina Fahmi, and more. Plus, opportunities to forge meaningful connections.
+Register Now
+Most Popular
+Hugging Face CEO says we’re in an ‘LLM bubble,’ not an AI bubble
+Sarah Perez
+Google launches Gemini 3 with new coding app and record benchmark scores
+Russell Brandom
+Ramp hits $32B valuation, just 3 months after hitting $22.5B
+Julie Bort
+DoorDash confirms data breach affecting users’ phone numbers and physical addresses
+Lorenzo Franceschi-Bicchierai
+Jeff Bezos reportedly returns to the trenches as co-CEO of new AI startup, Project Prometheus
+Ram Iyer
+‘Buy now, pay later’ is expanding fast, and that should worry everyone
+Connie Loizos
+Jury says Apple owes Masimo $634M for patent infringement
+Anthony Ha

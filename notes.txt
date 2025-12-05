@@ -1,0 +1,21 @@
+API_KEY = 48ccaff198ec41f0867c468b0cb2f77b
+
+GET https://newsapi.org/v2/everything?
+    language=ar&
+    sortBy=publishedAt&
+    apiKey=48ccaff198ec41f0867c468b0cb2f77b
+
+ The app.py service loads facebook/bart-large-mnli via Transformers;
+ that model is stored in the Hugging Face cache on disk
+ (on my machine, the model can be found here:
+    (base) belincoln@belincoln-ThinkPad-E16-Gen-1:~/.cache/huggingface/hub/models--facebook--bart-large-mnli$
+
+to run the project:
+1. Make sure article text is in src/main/resources/newsArticle.txt
+    The code to do this is in hackerNews.py in (other_articles)
+2. Make sure the BERT model is saved on disk
+   The code to download the model is in "download_models" in (other_articles)
+3. Start python app for LLM usage:
+    uvicorn app:app --port 8000
+4. Compile scala code (make sure I am in "final_proj"
+    sbt "runMain ZeroShotClient"

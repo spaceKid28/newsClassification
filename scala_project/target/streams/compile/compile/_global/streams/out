@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /home/belincoln/school/big_data/final_proj/scala_project/src/main/scala/ZeroShotDemo.scala:9:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m[33mobject[0m [35mZeroShotDemo[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m'.' expected, but 'end of statement' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: /home/belincoln/school/big_data/final_proj/scala_project/src/main/scala/ZeroShotDemo.scala:54:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m    [33mval[0m [36mlabels[0m = json([31m"labels"[0m).arr.map(_.str)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mlabels is already defined as [33mvalue[0m [35mlabels[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNote that overloaded methods must all be defined in the same group of toplevel definitions[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
