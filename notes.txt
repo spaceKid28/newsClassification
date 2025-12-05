@@ -7,7 +7,7 @@ GET https://newsapi.org/v2/everything?
 
  The app.py service loads facebook/bart-large-mnli via Transformers;
  that model is stored in the Hugging Face cache on disk
- (on my machine, the model can be found here:
+ on my machine, the model can be found here:
     (base) belincoln@belincoln-ThinkPad-E16-Gen-1:~/.cache/huggingface/hub/models--facebook--bart-large-mnli$
 
 to run the project:
@@ -17,5 +17,16 @@ to run the project:
    The code to download the model is in "download_models" in (other_articles)
 3. Start python app for LLM usage:
     uvicorn app:app --port 8000
-4. Compile scala code (make sure I am in "final_proj"
+4. Compile scala code make sure I am in "final_proj/scala_project"
     sbt "runMain ZeroShotClient"
+
+My port is: 3003
+
+To run the webapp, run on this cluster:
+
+
+To connect to the current hadoop cluster EMR: 
+ssh hadoop@ec2-34-230-47-10.compute-1.amazonaws.com
+
+To connect to the current web server: 
+ssh ec2-user@ec2-52-20-203-80.compute-1.amazonaws.com
