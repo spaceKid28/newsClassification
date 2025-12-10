@@ -1,0 +1,46 @@
+<!-- file: 'newsClassification/articles_web_app/result.mustache' -->
+<h2>{{title}}</h2>
+
+{{#stats}}
+<table class="table">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#rows}}
+    <tr>
+      <td>{{name}}</td>
+      <td>{{value}}</td>
+    </tr>
+    {{/rows}}
+  </tbody>
+</table>
+{{/stats}}
+
+{{#articles}}
+<table class="table" style="margin-top: 16px;">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Upvotes</th>
+      <th>URL</th>
+      <th>Day</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#items}}
+    <tr>
+      <td>{{title}}</td>
+      <td>{{author}}</td>
+      <td>{{upvotes}}</td>
+      <td><a href="{{url}}" target="_blank" rel="noopener">{{url}}</a></td>
+      <td>{{day}}</td>
+    </tr>
+    {{/items}}
+  </tbody>
+</table>
+{{/articles}}

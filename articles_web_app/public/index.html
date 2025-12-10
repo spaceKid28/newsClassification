@@ -1,0 +1,26 @@
+<!-- file: 'newsClassification/articles_web_app/public/index.html' -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Daily HackerNews Stats</title>
+    <link rel="stylesheet" href="table.css" />
+</head>
+<body>
+<h1>Daily HackerNews Stats</h1>
+
+<form action="/stats.html" method="get">
+    <label for="day">Daily Analytics (YYYY-MM-DD):</label>
+    <input type="text" id="day" name="day" placeholder="2025-11-27" required />
+    <button type="submit">Show Stats</button>
+</form>
+
+<form action="/articles.html" method="get" style="margin-top: 16px;">
+    <label for="articles-day">Daily Articles (YYYY-MM-DD):</label>
+    <input type="text" id="articles-day" name="day" placeholder="2025-12-05" required />
+    <button type="submit">Show Articles</button>
+</form>
+
+<p>Example: try 2025-11-27</p>
+</body>
+</html>
