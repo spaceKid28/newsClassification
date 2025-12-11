@@ -1,0 +1,158 @@
+<!-- file: `newsClassification/articles_web_app/result2.mustache` -->
+<!-- Daily articles result template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{title}}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      margin-bottom: 24px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .table-container {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 16px 16px 8px 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 0.9rem;
+    }
+
+    thead tr {
+      background-color: #f0f0f0;
+    }
+
+    th,
+    td {
+      padding: 8px 10px;
+      border-bottom: 1px solid #ddd;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    .col-day {
+      width: 90px;
+      white-space: nowrap;
+    }
+
+    .col-title {
+      width: 30%;
+    }
+
+    .col-author {
+      width: 12%;
+      white-space: nowrap;
+    }
+
+    .col-upvotes {
+      width: 8%;
+      text-align: right;
+    }
+
+    .col-sentiment {
+      width: 12%;
+      white-space: nowrap;
+      text-transform: capitalize;
+    }
+
+    .col-confidence {
+      width: 12%;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .col-url a {
+      color: #1a73e8;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    .col-url a:hover {
+      text-decoration: underline;
+    }
+
+    .no-results {
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 4px;
+      padding: 12px 16px;
+      max-width: 480px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>{{title}}</h1>
+
+{{#day}}
+<p class="subtitle">Showing articles for <strong>{{day}}</strong>.</p>
+{{/day}}
+
+{{#items}}
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th class="col-day">Day</th>
+        <th class="col-title">Title</th>
+        <th class="col-author">Author</th>
+        <th class="col-upvotes">Upvotes</th>
+        <th class="col-sentiment">Sentiment</th>
+        <th class="col-confidence">Confidence</th>
+        <th class="col-url">URL</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#items}}
+      <tr>
+        <td class="col-day">{{day}}</td>
+        <td class="col-title">{{title}}</td>
+        <td class="col-author">{{author}}</td>
+        <td class="col-upvotes">{{upvotes}}</td>
+        <td class="col-sentiment">{{sentiment_label}}</td>
+        <td class="col-confidence">{{classification_confidence}}</td>
+        <td class="col-url">
+          <a href="{{url}}" target="_blank" rel="noopener">{{url}}</a>
+        </td>
+      </tr>
+      {{/items}}
+    </tbody>
+  </table>
+</div>
+{{/items}}
+
+{{^items}}
+<div class="no-results">
+  <p>No articles found for {{day}}.</p>
+</div>
+{{/items}}
+
+</body>
+</html>

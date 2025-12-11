@@ -11,7 +11,7 @@ STEP 0: ssh into the cluster and activate virtual environment for python scripts
 
 STEP 1 (SCRAPE FROM INTERNET):
 In this step, we pull article text from the HackerNews api. HackerNews is a ycombinator site that provides news articles about the technology industry.
-The webscraping files are already located in the cluster, simply naviage here: cd /home/hadoop/belincoln/newsClassification/sentiment_analysis
+The webscraping files are already located in the cluster, simply navigate here: cd /home/hadoop/belincoln/newsClassification/sentiment_analysis
 and run these commands. you can change --num-stories to a larger number for a true batch pull (1000 took about 10 minutes)
     
     python hackerNews_batch.py --num-stories 500 --output data/
@@ -187,7 +187,7 @@ After navigative to /home/ec2-user/belincoln/articles_web_app Run
     npm install (I've already run this )
     node app.js 3003 http://ec2-54-89-237-222.compute-1.amazonaws.com:8070
 
-You can access the web app at this url: node app.js 3003 http://ec2-54-89-237-222.compute-1.amazonaws.com:8070
+You can access the web app at this url: http://ec2-52-20-203-80.compute-1.amazonaws.com:3003/
 
 
 Possible improvements:

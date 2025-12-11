@@ -20,6 +20,32 @@
 </table>
 {{/stats}}
 
+<!-- Daily HackerNews Stats Result -->
+<h1>Daily HackerNews Stats for {{day}}</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Article Count</td>
+      <td>{{article_count}}</td>
+    </tr>
+    <tr>
+      <td>Average Upvotes</td>
+      <td>{{avg_upvotes}}</td>
+    </tr>
+    <tr>
+      <td>Average Comments</td>
+      <td>{{avg_comments}}</td>
+    </tr>
+  </tbody>
+</table>
+
 {{#articles}}
 <table class="table" style="margin-top: 16px;">
   <thead>

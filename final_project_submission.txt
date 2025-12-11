@@ -1,0 +1,2 @@
+My project can be found here:
+https://github.com/spaceKid28/newsClassification.git
